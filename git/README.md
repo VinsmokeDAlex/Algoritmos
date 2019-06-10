@@ -33,3 +33,22 @@ git commit -m "[Aqui va el mensaje del commit]"
 ```Shell
 git push origin [nombre de la rama]
 ```
+
+### Gestion de ramas
+#### Crear rama
+1.Para crear una rama se usa el siguiente comando
+```Shell
+git branch [Nombre rama]
+```
+2. Para cambiarnos a otra rama se usa
+```Shell
+git checkout [Nombre rama]
+```
+2.1 Para hacer los puntos 1 y 2 en un solo comando es el siguiente
+```Shell
+git checkout -b [Nombre de la rama]
+```
+3. Para publicar la rama en el servidor se usa
+```Shell
+git push origin [Nombre de la rama]
+```
