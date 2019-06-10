@@ -67,3 +67,18 @@ git branch -d [Nombre de la rama]
 ```Shell
 git push origin --delete [Nombre rama]
 ```
+
+#### Integracion de ramas / Mezcla
+1. Ir a la rama donde se integraran los cambios
+```Shell
+git checkout [Nombre rama]
+```
+2. Para hacer la integracion de los cambios se usa el comando
+```Shell
+git merge [Nombre de la rama de la que traemos los cambios]
+```
+> Notas: Si el cambio **no** genera conflictos podemos hacer el push sin problema.
+3. Para subir los cambios se usa
+```Shell
+git push origin [Nombre de rama que recibe los cambios]
+```
