@@ -6,11 +6,15 @@
 ```Shell
 git status
 ```
-
 + Para clonar un repositorio de manera local se usa:
 ```Shell
 git clone [Aqui va la URL del repositorio]
 ```
++ Para saber en que rama estoy se usa, lo señala con un asterisco
+ ```Shell
+git branch
+```
+
 #### Comandos para subir informacion al repositorio
 
 1. Revisar el estado en el que se encuentra el repositorio.
@@ -51,4 +55,15 @@ git checkout -b [Nombre de la rama]
 3. Para publicar la rama en el servidor se usa
 ```Shell
 git push origin [Nombre de la rama]
+```
+
+#### Borrar ramas
+
++ Para borrar la rama localmente es
+```Shell
+git branch -d [Nombre de la rama]
+```
++ Para borrar la rama en el servidor es con
+```Shell
+git push origin --delete [Nombre rama]
 ```
